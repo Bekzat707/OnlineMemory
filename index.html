@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Memory Journal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+   
+
+    <header>
+        <h1>Online Memory Journal</h1>
+    </header>
+    <main>
+        <section id="journal-entries">
+            <h2>My Memories</h2>
+            <div id="entries-container"></div>
+        </section>
+        <section id="new-entry">
+            <h2>Add a New Memory</h2>
+            <form id="entry-form">
+                <input type="text" id="title" placeholder="Title" required>
+                <textarea id="content" placeholder="Your memory..." required></textarea>
+                <input type="date" id="date" required>
+                <button type="submit">Add Memory</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
